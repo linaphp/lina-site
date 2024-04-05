@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ implode(' | ', [$data->title ?? '', 'My awesome blog']) }}</title>
-    <meta name="description" content="{{ substr(strip_tags($data->content), 0, 165) }}">
+    <title>{{ implode(' | ', [$data->title ?? '', 'Lina PHP']) }}</title>
+    <meta name="description" content="{{ $data->description ?: substr(strip_tags($data->content), 0, 165) }}">
     <meta name="og:image" content="/images/og.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@bangnokia">
