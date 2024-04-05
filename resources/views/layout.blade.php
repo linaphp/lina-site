@@ -8,6 +8,7 @@
     <meta name="og:image" content="/images/og.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@bangnokia">
+    <meta name="twitter:image" content="/images/og.png">
 
     <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
