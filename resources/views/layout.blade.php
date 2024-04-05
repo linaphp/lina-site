@@ -27,6 +27,10 @@
     <style>
         body {
             font-family: 'Roboto Mono', monospace;
+            background-size: 40px 40px;
+            background-image:
+                    linear-gradient(to right, #eee 1px, transparent 1px),
+                    linear-gradient(to bottom, #eee 1px, transparent 1px);
         }
 
         [un-cloak] {
