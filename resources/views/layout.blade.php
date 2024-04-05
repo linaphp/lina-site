@@ -23,7 +23,7 @@
             ],
         }
     </script>
-    <script src="//cdn.jsdelivr.net/npm/@unocss/runtime/core.global.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@unocss/runtime/core"></script>
     <style>
         body {
             font-family: 'Roboto Mono', monospace;
