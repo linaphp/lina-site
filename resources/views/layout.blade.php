@@ -16,7 +16,7 @@
         window.__unocss = {
             rules: [],
             presets: [
-                presetAttributify(), // required when using attributify mode
+                presetAttributify(),
             ],
         }
     </script>
