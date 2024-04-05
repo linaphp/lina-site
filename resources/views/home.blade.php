@@ -39,6 +39,10 @@
         </a>
     </div>
 
-
+    <div mt-16 container mx-auto leading-10 prose>
+        Lina is an opinionated static site generator written in PHP. <br>
+        It's perfect for blogs because the story behind Lina is that it was created to build blog for myself. <br>
+        You don't have install ton of JS stuff, just put some markdown files and ta-da! <br>
+    </div>
 
 @endsection

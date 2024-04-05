@@ -8,12 +8,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="//fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@0,100..700;1,100..700&display=swap"
+          rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/@unocss/runtime/attributify.global.js"></script>
     <script>
         window.__unocss = {
-            rules: [
-            ],
+            rules: [],
             presets: [
                 presetAttributify(),
             ],
@@ -24,12 +24,14 @@
         body {
             font-family: 'Roboto Mono', monospace;
         }
+
         [un-cloak] {
             display: none;
         }
     </style>
 </head>
-<body>
+
+<body bg-neutral-100>
 <div id="app" un-cloak>
     <main class="container mx-auto">
         @yield('content')
