@@ -36,6 +36,13 @@
     <main class="container mx-auto">
         @yield('content')
     </main>
+
+
+    <footer mt-16 border-t border-t-solid border-black py-4>
+        <div container mx-auto>
+            &copy; {{ date('Y') }} by <a href="https://daudau.cc">Nguyen Viet</a>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

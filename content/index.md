@@ -1,5 +1,6 @@
 ---
-title: Welcome to Lina
+title: Lina PHP - A simple and blazing fast static blog generator
+description: Lina is a simple and lightweight blog platform built on top of Laravel Blade. Lina is designed to be easy to use and minimalistic.
 layout: home
 ---
 
