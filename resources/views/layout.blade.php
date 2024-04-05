@@ -44,7 +44,7 @@
 
     <footer mt-16 border-t border-t-solid border-black py-4>
         <div container mx-auto>
-            &copy; {{ date('Y') }} by <a href="https://daudau.cc">Nguyen Viet</a>
+            &copy; {{ date('Y') }} by <a href="https://daudau.cc">Nguyen Viet</a>. This site is built using Lina 😆!
         </div>
     </footer>
 </div>
