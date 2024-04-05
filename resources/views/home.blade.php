@@ -23,7 +23,7 @@
            text-red-500
            transition
            hover:text-white hover:bg-red-500
-           href="https://github.com/bangnokia/lina">
+           href="https://github.com/bangnokia/lina?tab=readme-ov-file#requirements">
             Get started
         </a>
         <a flex items-center gap-2
