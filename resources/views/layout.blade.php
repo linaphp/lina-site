@@ -18,11 +18,9 @@
         window.__unocss = {
             rules: [],
             presets: [
-                // presetAttributify(),
             ],
         }
     </script>
-    <script src="//cdn.jsdelivr.net/npm/@unocss/runtime"></script>
     <style>
         body {
             font-family: 'Roboto Mono', monospace;
