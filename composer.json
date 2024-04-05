@@ -1,0 +1,14 @@
+{
+    "name": "bangnokia/lina-site",
+    "type": "project",
+    "require": {
+        "bangnokia/lina": "^0.4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bangnokia",
+            "email": "bangnokia@gmail.com"
+        }
+    ]
+}
