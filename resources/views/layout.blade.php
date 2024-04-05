@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ implode(' | ', [$data->title ?? '', 'My awesome blog']) }}</title>
     <meta name="description" content="{{ substr(strip_tags($data->content), 0, 165) }}">
+    <meta name="og:image" content="/images/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@bangnokia">
 
     <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
