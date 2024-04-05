@@ -42,13 +42,13 @@
     <div mt-16 container mx-auto leading-10 prose text-center>
         <h2>Blazing fast build</h2>
         <p>It's just miliseconds! Then all your pages are generated to html files</p>
-        <img w-full h-full mt-4 rounded-lg h-full src="/images/fast-build.png" alt="blazing fast build" />
+        <img w-full h-full max-w-3xl mt-4 rounded-lg h-full src="/images/fast-build.png" alt="blazing fast build" />
     </div>
 
     <div mt-16 container mx-auto leading-10 prose text-center>
         <h2>Built-in web server</h2>
         <p>You just need to run <code text-red-500 bg-white px-2 rounded>lina serve</code> and your site is ready to be preview!</p>
-        <img w-full h-full mt-4 rounded-lg h-full src="/images/serve.png" alt="fast serve" />
+        <img w-full h-full max-w-3xl mt-4 rounded-lg h-full src="/images/serve.png" alt="fast serve" />
     </div>
 
     <div mt-16 container mx-auto leading-10 prose text-center>
