@@ -12,14 +12,13 @@
     <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="//fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@0,100..700;1,100..700&display=swap"
-          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/@unocss/runtime/attributify.global.js"></script>
     <script>
         window.__unocss = {
             rules: [],
             presets: [
-                presetAttributify(),
+                // presetAttributify(),
             ],
         }
     </script>
