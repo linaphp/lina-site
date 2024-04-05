@@ -3,9 +3,21 @@ title: Welcome to Lina
 layout: home
 ---
 
-Welcome to Lina, a simple and lightweight blog platform built on top of Laravel Blade. Lina is designed to be easy to use and.
+## Blazing fast build
+It's just miliseconds! Then all your pages are generated to html files
+![fast-build](/images/fast-build.png)
 
-Checkout the [documentation](https://github.com/bangnokia/lina) on our Github repository to get started.
+## Built-in web server
+You just need to run <code text-red-500 bg-white px-2 rounded>lina serve</code> and your site is ready to be preview!
+![server-command](/images/serve.png)
 
+```php
+use Tempest\Highlight\Highlighter;
+use Tempest\Highlight\Themes\LightTerminalTheme;
+
+$highlighter = new Highlighter(new LightTerminalTheme());
+
+echo $highlighter->parse($code, 'php');
+```
 
 
