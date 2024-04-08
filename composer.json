@@ -2,7 +2,7 @@
     "name": "bangnokia/lina-site",
     "type": "project",
     "require": {
-        "bangnokia/lina": "^0.4.3"
+        "bangnokia/lina": "^0.5"
     },
     "license": "MIT",
     "authors": [
