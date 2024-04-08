@@ -45,40 +45,34 @@
             </a>
         </div>
 
-        <div mt-16 container mx-auto leading-10 prose text-center max-w-4xl>
-            <h2 text-2xl lg:text-4xl>Smart content organizing</h2>
-            <p>Your content files should start with timestamp, to easy manage them. Don't worry, Lina is smart enough to
-                strip them out of the url.</p>
-            <img w-full h-full max-w-3xl mt-4 rounded-lg src="/images/organize-content.png"
-                 alt="blazing fast build"/>
-        </div>
+        @php
+            $features = [
+                [
+                    'name' => 'Built-in web server',
+                    'description' => 'Just run `lina serve` and your site is ready to be preview, live reloading when content changed, we already have it!'
+                ],
+                [
+                    'name' => 'Syntax highlighting',
+                    'description' => 'This is must have feature for a developer blog, bring to you by <a href="https://github.com/tempestphp/highlight" target="_blank">tempest/highlight</a>.'
+                ],
+                [
+                    'name' => 'Blazing fast build',
+                    'description' => 'Your site is generated to html files in <span text-rose-500>miliseconds</span>, not seconds.'
+                ],
+                [
+                    'name' => 'Deploy everywhere',
+                    'description' => 'So Github pages, Cloudflare pages... you don\'t have to pay any cost for you site. Just push your code and your site is live under 12 seconds 🚀.',
+                ]
+            ];
+        @endphp
 
-        <div mt-16 container mx-auto leading-10 prose text-center max-w-4xl>
-            <h2 text-2xl lg:text-4xl>Blazing fast build</h2>
-            <p>It's just miliseconds! Then all your pages are generated to html files</p>
-            <img w-full h-full max-w-3xl mt-4 rounded-lg h-full src="/images/fast-build.png" alt="blazing fast build"/>
-        </div>
-
-        <div mt-16 container mx-auto leading-10 prose text-center max-w-4xl>
-            <h2 text-2xl lg:text-4xl>Built-in web server</h2>
-            <p>You just need to run <code text-red-500 bg-white px-2 rounded>lina serve</code> and your site is ready to
-                be preview!</p>
-            <img w-full h-full max-w-3xl mt-4 rounded-lg h-full src="/images/serve.png" alt="fast serve"/>
-        </div>
-
-
-        <div mt-16 container mx-auto leading-10 prose text-center max-w-4xl>
-            <h2 text-2xl lg:text-4xl>Syntax highlighting</h2>
-            <p>
-                Lina use the moderm and super fast <a href="https://github.com/tempestphp/highlight" target="_blank">tempestphp/highlight</a>
-                and you can use it in your markdown files
-            </p>
-        </div>
-
-        <div mt-16 container mx-auto leading-10 prose text-center max-w-4xl>
-            <h2 text-2xl lg:text-4xl>Deploy everywhere</h2>
-            <p>All your markdown files are generated to html files. So Github pages, Cloudflare pages... you don't have
-                to pay any cost for you site.</p>
+        <div grid="~ cols-1 md:cols-2" gap-6>
+            @foreach($features as ['name' => $name, 'description' => $description])
+                <div px-6 py-2>
+                    <h2 text-2xl lg:text-3xl>{{ $name }}</h2>
+                    <div>{!! $description !!}</div>
+                </div>
+            @endforeach
         </div>
 
     </section>
