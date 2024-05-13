@@ -66,10 +66,10 @@
             ];
         @endphp
 
-        <div grid="~ cols-1 md:cols-2" gap-6>
+        <div grid="~ cols-1 md:cols-2 gap-6">
             @foreach($features as ['name' => $name, 'description' => $description])
                 <div px-6 py-2>
-                    <h2 text-2xl lg:text-3xl>{{ $name }}</h2>
+                    <h2 text="2xl lg:3xl">{{ $name }}</h2>
                     <div>{!! $description !!}</div>
                 </div>
             @endforeach
