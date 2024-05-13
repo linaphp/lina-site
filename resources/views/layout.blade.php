@@ -13,7 +13,7 @@
     <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="//fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Be Vietnam Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/@unocss/runtime/attributify.global.js"></script>
     <script>
         window.__unocss = {
@@ -24,7 +24,7 @@
     </script>
     <style>
         body {
-            font-family: 'Roboto Mono', monospace;
+            font-family: 'Be Vietnam Pro', monospace;
             background-size: 40px 40px;
             background-image:
                     linear-gradient(to right, #eee 1px, transparent 1px),
