@@ -10,5 +10,8 @@
             "name": "bangnokia",
             "email": "bangnokia@gmail.com"
         }
-    ]
+    ],
+    "scripts": {
+        "serve": "./vendor/bin/lina serve"
+    }
 }
